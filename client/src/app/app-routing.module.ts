@@ -28,7 +28,6 @@ const routes: Routes = [
       {path: 'lists', component: ListsComponent},
       {path: 'messages', component: MessagesComponent},
       {path: 'admin', component: AdminPanelComponent, canActivate: [AdminGuard]},
-
     ]
   },
 {path: 'errors', component:TestErrorsComponent},
